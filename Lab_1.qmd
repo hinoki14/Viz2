@@ -1,0 +1,84 @@
+---
+title: "Lab_1"
+format: pdf
+---
+
+### **Student Project: Interactive Business Insights Using Plotly**
+**Project Title:** *Exploring Business Data Trends with Interactive Visualizations in R*
+
+---
+
+### **Project Objective**  
+Students will use **Plotly** in R to explore and visualize a business-related dataset, such as **sales data, customer behavior, or stock prices**. The goal is to create **interactive visualizations** to uncover patterns and insights.
+
+---
+
+### **Project Requirements**  
+**Data Source:**  
+Students can choose one of the following datasets or use their own business-related dataset:  
+- **Built-in dataset:** `economics` (US economic data)  
+- **CSV file:** Sales or financial dataset from Kaggle  
+- **Google Trends data:** Exported from Google Trends  
+
+**Tools:**  
+- `plotly` for visualization  
+- `dplyr` for data wrangling  
+
+**Deliverables:**  
+- **An R script** with interactive Plotly visualizations  
+- **A brief report or presentation** summarizing insights  
+
+---
+
+### **Tasks and Guidelines**  
+
+**1. Data Preparation**
+- Load a business dataset (e.g., sales, economic data).
+- Convert necessary variables into factors.
+- Perform **basic data wrangling** (filtering, grouping, summarization).
+
+**2. Visualization Tasks**  
+**Scatter Plot:**  
+- Create an **interactive scatter plot** showing the relationship between two key metrics (e.g., **sales vs. profit**).
+- Use **color coding** to represent different categories.
+
+**Bar Chart:**  
+- Create a **bar chart** comparing **total sales per region or product category**.
+- Use **stacked or grouped** bars.
+
+**Line Chart:**  
+- Create an **interactive line chart** showing trends over time (e.g., **monthly revenue**).
+
+**Bubble Chart:**  
+- Create a **bubble chart** where **bubble size represents total sales** and **color represents product categories**.
+
+**Heatmap:**  
+- Create an **interactive heatmap** showing correlations between numerical variables.
+
+**3. Insights & Interpretation**  
+- Summarize key **business insights** using the visualizations.
+- Answer questions like:
+  - Which product category or region generates the most revenue?
+  - Are there seasonal trends in sales or economic indicators?
+  - How are different variables correlated?
+
+**4. (Optional) Interactive Dashboard**  
+- If students want an extra challenge, they can integrate the plots into a **Shiny app** or **flexdashboard**.
+
+---
+
+### **Grading Criteria**
+| Criteria | Points |
+|----------|--------|
+| Correct use of `plotly` for interactive visualizations | 30 |
+| Clarity & accuracy of visualizations | 20 |
+| Interpretation & insights from data | 20 |
+| Report/Presentation quality | 20 |
+| Bonus (Dashboard or additional insights) | 10 |
+
+---
+
+### **Expected Outcome**
+By completing this project, students will develop **interactive data visualization** skills and learn how to present **business insights** using data-driven storytelling.
+
+Would you like an **R script template** for this project?

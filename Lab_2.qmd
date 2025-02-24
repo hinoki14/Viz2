@@ -1,0 +1,75 @@
+---
+title: "Lab_2"
+format: pdf
+---
+
+### **Student Project: Analyzing Vehicle Performance with Interactive Visualizations**
+**Project Title:** *Exploring Car Performance Metrics Using Interactive Data Visualizations in R*
+
+---
+
+### **Project Objective**  
+Students will analyze the **mtcars** dataset using **Plotly** in R to uncover insights about vehicle performance. They will create interactive visualizations to understand relationships between different car attributes.
+
+---
+
+### **Project Requirements**  
+**Data Source:** Built-in **mtcars** dataset  
+**Tools:** `plotly`, `dplyr`  
+**Deliverables:**  
+   - **R script** with data analysis and visualization  
+   - **A short report or presentation** summarizing findings  
+   - **A dashboard (optional) using flexdashboard or Shiny**
+
+---
+
+### **Tasks and Guidelines**  
+
+**1. Data Preparation**
+- Load the `mtcars` dataset.
+- Convert categorical variables (`cyl`, `gear`) into factors.
+
+**2. Visualization Tasks**  
+**Scatter Plot:**  
+- Create an interactive **scatter plot** of **MPG vs. Weight**, with color representing `cyl` (cylinders).
+- Add **horsepower (hp) as the size** of the points.
+
+**Bar Chart:**  
+- Create a **stacked bar chart** showing the count of cars by `cyl` and `gear`.
+
+**Bubble Chart:**  
+- Create an interactive **bubble chart** visualizing **MPG vs. Horsepower**, with **weight as the bubble size**.
+
+**Heatmap:**  
+- Generate an interactive **heatmap** showing correlations between `mpg`, `hp`, `wt`, and `qsec`.
+
+**Density Plot:**  
+- Create a **2D histogram density plot** to examine the distribution of `MPG` and `HP`.
+
+**3. Insights & Interpretation**  
+- Summarize key findings from the visualizations.
+- Answer questions like:
+  - Which type of car (by `cyl`) tends to have better fuel efficiency (`mpg`)?
+  - What is the relationship between `hp` and `mpg`?
+  - How does weight (`wt`) impact fuel efficiency?
+
+**4. (Optional) Interactive Dashboard**  
+- If students want an extra challenge, they can integrate the plots into a **Shiny app** or **flexdashboard**.
+
+---
+
+### **Grading Criteria**
+| Criteria | Points |
+|----------|--------|
+| Correct use of `plotly` for interactive visualizations | 30 |
+| Clarity & accuracy of visualizations | 20 |
+| Interpretation & insights from data | 20 |
+| Report/Presentation quality | 20 |
+| Bonus (Dashboard or additional insights) | 10 |
+
+---
+
+### **Expected Outcome**
+By completing this project, students will develop skills in **interactive data visualization** and **data-driven storytelling**, which are highly valuable for business analytics.
+
+Would you like a template R script for this project?
