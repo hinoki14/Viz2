@@ -66,3 +66,4 @@ plot_ly(mtcars, x = ~mpg, y = ~hp, type = "histogram2d") %>%
   layout(title = "2D Histogram Density Plot: MPG vs HP",
          xaxis = list(title = "Miles Per Gallon"),
          yaxis = list(title = "Horsepower"))
+
